@@ -36,7 +36,7 @@ public class Game {
 	}
 
 	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
-			String short_Description, String longDescription) {
+			String shortDescription, String longDescription) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -45,7 +45,7 @@ public class Game {
 		this.platforms = platforms;
 		this.score = score;
 		this.imgUrl = imgUrl;
-		this.shortDescription = short_Description;
+		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
 	}
 
@@ -105,11 +105,11 @@ public class Game {
 		this.imgUrl = imgUrl;
 	}
 
-	public String getShort_Description() {
+	public String getShortDescription() {
 		return shortDescription;
 	}
 
-	public void setShort_Description(String short_Description) {
+	public void setShortDescription(String short_Description) {
 		this.shortDescription = short_Description;
 	}
 
